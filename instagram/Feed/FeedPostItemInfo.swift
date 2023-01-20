@@ -10,7 +10,7 @@ import UIKit
 struct FeedPostItemInfo {
     let userImage: UIImage
     let userName: String
-    let postSubtitle: UIImage
+    let postSubtitle: String
     let postImage: UIImage
     let numberOfLikes: Int
     let comment: CommentShortInfo?

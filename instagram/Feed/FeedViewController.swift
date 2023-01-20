@@ -22,7 +22,13 @@ class FeedViewController: UIViewController {
             FeedStoriesItemCellInfo(image: UIImage(named: "avatar")!, userName: "userName", isAddButtonVisible: false, isNewStory: true),
             FeedStoriesItemCellInfo(image: UIImage(named: "avatar")!, userName: "userName", isAddButtonVisible: false, isNewStory: true),
             FeedStoriesItemCellInfo(image: UIImage(named: "avatar")!, userName: "userName", isAddButtonVisible: false, isNewStory: false)
-        ])
+        ]),
+        .post(FeedPostItemInfo(userImage: UIImage(named: "avatar")!, userName: "avatar_228", postSubtitle: "Sponsored", postImage: UIImage(named: "avatar")!, numberOfLikes: 123, comment: CommentShortInfo(usernmae: "hei", commentText: "asdsadasdas"))),
+        .post(FeedPostItemInfo(userImage: UIImage(named: "avatar")!, userName: "avatar_228", postSubtitle: "Sponsored", postImage: UIImage(named: "avatar")!, numberOfLikes: 123, comment: CommentShortInfo(usernmae: "hei", commentText: "asdsadasdas"))),
+        .post(FeedPostItemInfo(userImage: UIImage(named: "avatar")!, userName: "avatar_228", postSubtitle: "Sponsored", postImage: UIImage(named: "avatar")!, numberOfLikes: 123, comment: CommentShortInfo(usernmae: "hei", commentText: "asdsadasdas"))),
+        .post(FeedPostItemInfo(userImage: UIImage(named: "avatar")!, userName: "avatar_228", postSubtitle: "Sponsored", postImage: UIImage(named: "avatar")!, numberOfLikes: 123, comment: CommentShortInfo(usernmae: "hei", commentText: "asdsadasdas"))),
+        .post(FeedPostItemInfo(userImage: UIImage(named: "avatar")!, userName: "avatar_228", postSubtitle: "Sponsored", postImage: UIImage(named: "avatar")!, numberOfLikes: 123, comment: CommentShortInfo(usernmae: "hei", commentText: "asdsadasdas"))),
+               
     ]
 }
 
