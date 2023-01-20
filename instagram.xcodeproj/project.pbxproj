@@ -12,6 +12,13 @@
 		18FBBD1A2978080B00F4BD8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FBBD192978080B00F4BD8D /* Assets.xcassets */; };
 		18FBBD1D2978080B00F4BD8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FBBD1B2978080B00F4BD8D /* LaunchScreen.storyboard */; };
 		18FBBD28297808E400F4BD8D /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBBD27297808E400F4BD8D /* FeedViewController.swift */; };
+		18FBBD4B2978166800F4BD8D /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBBD4A2978166800F4BD8D /* LogoView.swift */; };
+		18FBBD4D2979662800F4BD8D /* FeedItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBBD4C2979662800F4BD8D /* FeedItemType.swift */; };
+		18FBBD4F2979664F00F4BD8D /* FeedStoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBBD4E2979664F00F4BD8D /* FeedStoriesCell.swift */; };
+		18FBBD512979678600F4BD8D /* FeedPostItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBBD502979678600F4BD8D /* FeedPostItemInfo.swift */; };
+		18FBBD5429796A9F00F4BD8D /* FeedStoriesSetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBBD5329796A9F00F4BD8D /* FeedStoriesSetCell.swift */; };
+		18FBBD5629796B9600F4BD8D /* FeedPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBBD5529796B9600F4BD8D /* FeedPostCell.swift */; };
+		18FBBD582979717300F4BD8D /* StoriesItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBBD572979717300F4BD8D /* StoriesItemCell.swift */; };
 		B4926D0069F961D1AAA57054 /* Pods_instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23642313BE1B411AA1295640 /* Pods_instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +30,13 @@
 		18FBBD1C2978080B00F4BD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18FBBD1E2978080B00F4BD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18FBBD27297808E400F4BD8D /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		18FBBD4A2978166800F4BD8D /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		18FBBD4C2979662800F4BD8D /* FeedItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemType.swift; sourceTree = "<group>"; };
+		18FBBD4E2979664F00F4BD8D /* FeedStoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoriesCell.swift; sourceTree = "<group>"; };
+		18FBBD502979678600F4BD8D /* FeedPostItemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostItemInfo.swift; sourceTree = "<group>"; };
+		18FBBD5329796A9F00F4BD8D /* FeedStoriesSetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoriesSetCell.swift; sourceTree = "<group>"; };
+		18FBBD5529796B9600F4BD8D /* FeedPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostCell.swift; sourceTree = "<group>"; };
+		18FBBD572979717300F4BD8D /* StoriesItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesItemCell.swift; sourceTree = "<group>"; };
 		23642313BE1B411AA1295640 /* Pods_instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9671A846EF46604E3FE3A5CA /* Pods-instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagram.debug.xcconfig"; path = "Target Support Files/Pods-instagram/Pods-instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		A0043373C6F13F7B205A9A83 /* Pods-instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagram.release.xcconfig"; path = "Target Support Files/Pods-instagram/Pods-instagram.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,6 +75,7 @@
 		18FBBD0F2978080A00F4BD8D /* instagram */ = {
 			isa = PBXGroup;
 			children = (
+				18FBBD492978165800F4BD8D /* Views */,
 				18FBBD26297808D300F4BD8D /* Feed */,
 				18FBBD252978083B00F4BD8D /* Aplication */,
 				18FBBD242978081C00F4BD8D /* Resources */,
@@ -91,8 +106,30 @@
 			isa = PBXGroup;
 			children = (
 				18FBBD27297808E400F4BD8D /* FeedViewController.swift */,
+				18FBBD4C2979662800F4BD8D /* FeedItemType.swift */,
+				18FBBD4E2979664F00F4BD8D /* FeedStoriesCell.swift */,
+				18FBBD502979678600F4BD8D /* FeedPostItemInfo.swift */,
 			);
 			path = Feed;
+			sourceTree = "<group>";
+		};
+		18FBBD492978165800F4BD8D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18FBBD5229796A6D00F4BD8D /* Cells */,
+				18FBBD4A2978166800F4BD8D /* LogoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18FBBD5229796A6D00F4BD8D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18FBBD5329796A9F00F4BD8D /* FeedStoriesSetCell.swift */,
+				18FBBD5529796B9600F4BD8D /* FeedPostCell.swift */,
+				18FBBD572979717300F4BD8D /* StoriesItemCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		48AE18E06C8AB1E4D4176E41 /* Frameworks */ = {
@@ -226,9 +263,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FBBD512979678600F4BD8D /* FeedPostItemInfo.swift in Sources */,
 				18FBBD112978080A00F4BD8D /* AppDelegate.swift in Sources */,
+				18FBBD4B2978166800F4BD8D /* LogoView.swift in Sources */,
 				18FBBD28297808E400F4BD8D /* FeedViewController.swift in Sources */,
+				18FBBD582979717300F4BD8D /* StoriesItemCell.swift in Sources */,
+				18FBBD5429796A9F00F4BD8D /* FeedStoriesSetCell.swift in Sources */,
+				18FBBD4F2979664F00F4BD8D /* FeedStoriesCell.swift in Sources */,
+				18FBBD5629796B9600F4BD8D /* FeedPostCell.swift in Sources */,
 				18FBBD132978080A00F4BD8D /* SceneDelegate.swift in Sources */,
+				18FBBD4D2979662800F4BD8D /* FeedItemType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
